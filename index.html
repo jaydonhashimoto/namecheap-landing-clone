@@ -11,45 +11,64 @@
   <body>
     <!-- Top Bar -->
     <nav class="top-bar">
-      <!-- Left Side -->
       <ul>
+        <!-- Left Side -->
         <li class="dropdown">
           <a href="#" class="dropbtn">SUPPORT</a>
-          <ul class="dropdown-content">
-            <li><a href="#">Support Center</a></li>
-            <li><a href="#">Status Updates</a></li>
-            <li><a href="#">Knowledge Base</a></li>
-            <li><a href="#">Submit Ticket</a></li>
-            <li><a href="#">Live Chat</a></li>
-            <li><a href="#">Report Abuse</a></li>
-          </ul>
+          <div class="dropdown-content">
+            <a href="#">Support Center</a>
+            <a href="#">Status Updates</a>
+            <a href="#">Knowledgebase</a>
+            <a href="#">Submit Ticket</a>
+            <a href="#">Live Chat</a>
+            <a href="#">Report Abuse</a>
+          </div>
         </li>
         <li class="dropdown">
-          <span><a href="#"> SIGN IN</a></span>
-          <form class="dropdown-content">
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Username"
-            />
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-            />
-            <input type="submit" value="Sign In" /><br />
-            <a href="#">Forgot your password?</a>
-          </form>
+          <a href="#" class="dropbtn"> SIGN IN</a>
+          <div class="dropdown-content">
+              <form class="signin">
+                  <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"
+                  /><br/>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                  /><br/>
+                  <input type="submit" value="Sign In" /><br />
+                  <a href="#">Forgot your password?</a>
+                </form>
+          </div>
         </li>
         <li>
-          <span><a href="#"> SIGN UP</a></span>
+          <span><a href="#" class="dropbtn"> SIGN UP</a></span>
         </li>
         <!-- Right Side -->
-        <li style="float:right"><a href="#"><i class="fas fa-shopping-cart"></i></a></i></li>
-        <li style="float:right"><a href="#">USD</a></li>
-        <li style="float:right"><a href="#"><i class="fas fa-search"></i></a> </li>
+        <li style="float:right"><a href="#" class="dropbtn"><i class="fas fa-search"></i></a> </li>
+        <li style="float:right" class="dropdown">
+          <a href="#" class="dropbtn">USD</a>
+          <div class="dropdown-content">
+              <a href="#">US Dollar</a>
+              <a href="#">Euro</a>
+              <a href="#">British Pound</a>
+              <a href="#">Canadian Dollars</a>
+              <a href="#">Australian Dollars</a>
+              <a href="#">More Info</a>
+            </div>
+        </li>
+        <li style="float:right" class="dropdown">
+            <a href="#" class="dropbtn"><i class="fas fa-shopping-cart"></i></a></i>
+            <div class="dropdown-content">
+              <p>Your Cart</p>
+              <label>Subtotal</label>$0.00<hr/>
+              <button>View Cart</button>
+            </div>
+          </li>
       </ul>
     </nav>
     <!-- Top Main Nav -->
