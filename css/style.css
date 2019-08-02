@@ -77,3 +77,26 @@ li.dropdown {
   border-radius: 5px;
   height: 2rem;
 }
+
+.top-nav {
+  padding-left: 275px;
+  padding-right: 300px;
+}
+
+.top-nav ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.top-nav li {
+  float: left;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.top-nav img {
+  width: 200px;
+  height: 36px;
+}
